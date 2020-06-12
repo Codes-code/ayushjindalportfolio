@@ -10,17 +10,23 @@ function App() {
         </h1>
 
         <div className="projects" style={{marginTop:'100px', marginBottom:'100px'}}>
-          <h2>Have a look at my React Projects</h2>
+          <h2>Have a look at my React.JS Projects</h2>
           <div>
-            <a href="https://fireauth-8c520.web.app/" target="_blank">1. FireAuth | Authentication Project</a>
+            <b>1. </b>
+            <i className="lock alternate icon"></i>
+            <a href="https://fireauth-8c520.web.app/" target="_blank">FireAuth | Authentication Project</a>
           </div>
           <div>
-            <a href="https://finderscopeproject.web.app/" target="_blank">2. FinderScope | Image Search</a>
+            <b>2. </b>
+            <i className="camera icon"></i>
+            <a href="https://finderscopeproject.web.app/" target="_blank">FinderScope | Image Search</a>
           </div>
         </div>
 
+        <div class="ui divider"></div>
+
         <div>
-          <h3 className="ui header">some meme for time being</h3><br/><br/>
+          <h3 className="ui header">enjoy some memes for time being</h3><br/><br/>
           <img alt="edgy meme 1" src="./meme1.png"></img>
           <img alt="edgy meme 2" src="./meme2.jpg"></img>
           <img alt="edgy meme 3" src="./meme3.png"></img>
